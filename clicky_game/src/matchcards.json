@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "image": "./image/bumi.png",
+    "clicked": false
+},
+{
+    "id": 2,
+    "image": "./image/Azula.png",
+    "clicked": false
+},
+{
+    "id": 3,
+    "image": "./image/aang.png",
+    "clicked": false
+},
+{
+    "id": 4,
+    "image":  "./image/Appa.png",
+    "clicked": false
+},
+{
+    "id": 5,
+    "image": "./image/katara.png",
+    "clicked": false
+},
+{
+    "id": 6,
+    "image": "./image/mai.png",
+    "clicked": false
+},
+{
+    "id": 7,
+    "image": "./image/momo.png",
+    "clicked": false
+},
+{
+    "id": 8,
+    "image": "./image/Sokka.png",
+    "clicked": false
+},
+{
+    "id": 9,
+    "image": "./image/toph.png",
+    "clicked": false
+},
+{
+    "id": 10,
+    "image": "./image/tylee.png",
+    "clicked": false
+},
+{
+    "id": 11,
+    "image": "./image/iroh.png",
+    "clicked": false
+},
+{
+    "id": 12,
+    "image": "./image/zuko.png",
+    "clicked": false
+}
+]
