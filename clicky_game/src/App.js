@@ -7,7 +7,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Click on a movie poster to gain points! Click on the same one twice and you lose!";
+let clickMessage = "Click on a character to gain points! Click on the same one twice and you lose!";
 
 class App extends Component {
 
@@ -30,7 +30,7 @@ class App extends Component {
             console.log ("Best Score: " + bestScore);
 
             correctGuesses = 0;
-            clickMessage = "Bummer! You already clicked on this one."
+            clickMessage = "You already clicked on this one."
 
             for (let i = 0 ; i < matches.length ; i++){
                 matches[i].clicked = false;
@@ -46,7 +46,7 @@ class App extends Component {
 
             correctGuesses++;
             
-            clickMessage = "Great! You haven't click on that one yet! Keep going!";
+            clickMessage = "Great! Keep going!";
 
             if (correctGuesses > bestScore){
                 bestScore = correctGuesses;
@@ -84,7 +84,7 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
-                <Title>Clickity Clack Movie Game</Title>
+                <Title>Avatar: The Last Airbender Game</Title>
         
                 <h3 className="scoreSummary">
                     {this.state.clickMessage}
