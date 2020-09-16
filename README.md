@@ -7,3 +7,6 @@ The goal was to showcase my skills in react by building a basic react app that h
 
 ## Technology Used
 - React
+
+## Screen recording of game
+https://drive.google.com/file/d/12ssgSn_L0BZBGQitX4-3d4xnx54IdqTC/view
